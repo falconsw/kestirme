@@ -1,0 +1,292 @@
+{
+  "system": [
+    {
+      "group": "Genel",
+      "symbol": "command",
+      "items": [
+        { "title": "Spotlight'ı aç", "keys": "cmd+space", "symbolic": 64 },
+        { "title": "Finder'da ara", "keys": "opt+cmd+space", "symbolic": 65 },
+        { "title": "Uygulamalar arasında geç", "keys": "cmd+tab" },
+        { "title": "Ters yönde geç", "keys": "shift+cmd+tab" },
+        { "title": "Pencereler arasında geç", "keys": "cmd+`" },
+        { "title": "Uygulamayı gizle", "keys": "cmd+h" },
+        { "title": "Diğer uygulamaları gizle", "keys": "opt+cmd+h" },
+        { "title": "Pencereyi küçült", "keys": "cmd+m" },
+        { "title": "Tam ekran", "keys": "ctrl+cmd+f" },
+        { "title": "Ayarlar", "keys": "cmd+," },
+        { "title": "Uygulamadan çık", "keys": "cmd+q" },
+        { "title": "Zorla çık", "keys": "opt+cmd+esc" },
+        { "title": "Emoji ve simgeler", "keys": "ctrl+cmd+space" },
+        { "title": "Önceki giriş kaynağı", "keys": "ctrl+space", "symbolic": 60 },
+        { "title": "Sonraki giriş kaynağı", "keys": "ctrl+opt+space", "symbolic": 61 },
+        { "title": "Ekranı kilitle", "keys": "ctrl+cmd+q" },
+        { "title": "Oturumu kapat", "keys": "shift+cmd+q" }
+      ]
+    },
+    {
+      "group": "Ekran görüntüsü",
+      "symbol": "camera.viewfinder",
+      "items": [
+        { "title": "Tüm ekranı kaydet", "keys": "shift+cmd+3", "symbolic": 28 },
+        { "title": "Tüm ekranı panoya kopyala", "keys": "ctrl+shift+cmd+3", "symbolic": 29 },
+        { "title": "Seçili alanı kaydet", "keys": "shift+cmd+4", "symbolic": 30 },
+        { "title": "Seçili alanı panoya kopyala", "keys": "ctrl+shift+cmd+4", "symbolic": 31 },
+        { "title": "Pencere görüntüsü", "keys": "shift+cmd+4 space" },
+        { "title": "Görüntü ve kayıt araçları", "keys": "shift+cmd+5", "symbolic": 184 }
+      ]
+    },
+    {
+      "group": "Masaüstü ve Mission Control",
+      "symbol": "rectangle.3.group",
+      "items": [
+        { "title": "Mission Control", "keys": "ctrl+up", "symbolic": 32 },
+        { "title": "Uygulama pencereleri", "keys": "ctrl+down", "symbolic": 33 },
+        { "title": "Soldaki masaüstüne geç", "keys": "ctrl+left", "symbolic": 79 },
+        { "title": "Sağdaki masaüstüne geç", "keys": "ctrl+right", "symbolic": 81 },
+        { "title": "Masaüstünü göster", "keys": "f11", "symbolic": 36, "note": "Dizüstü klavyede fn ile birlikte" }
+      ]
+    },
+    {
+      "group": "Pencere yerleşimi",
+      "symbol": "rectangle.split.2x1",
+      "note": "macOS 15+",
+      "items": [
+        { "title": "Pencereyi doldur", "keys": "fn+ctrl+f" },
+        { "title": "Pencereyi ortala", "keys": "fn+ctrl+c" },
+        { "title": "Sol yarıya yerleştir", "keys": "fn+ctrl+left" },
+        { "title": "Sağ yarıya yerleştir", "keys": "fn+ctrl+right" },
+        { "title": "Üst yarıya yerleştir", "keys": "fn+ctrl+up" },
+        { "title": "Alt yarıya yerleştir", "keys": "fn+ctrl+down" },
+        { "title": "Önceki boyuta dön", "keys": "fn+ctrl+r" }
+      ]
+    },
+    {
+      "group": "Metin düzenleme",
+      "symbol": "character.cursor.ibeam",
+      "items": [
+        { "title": "Önceki kelimeye git", "keys": "opt+left" },
+        { "title": "Sonraki kelimeye git", "keys": "opt+right" },
+        { "title": "Satır başına git", "keys": "cmd+left" },
+        { "title": "Satır sonuna git", "keys": "cmd+right" },
+        { "title": "Belgenin başına git", "keys": "cmd+up" },
+        { "title": "Belgenin sonuna git", "keys": "cmd+down" },
+        { "title": "Kelime kelime seç", "keys": "opt+shift+right" },
+        { "title": "Satır sonuna kadar seç", "keys": "shift+cmd+right" },
+        { "title": "Önceki kelimeyi sil", "keys": "opt+delete" },
+        { "title": "Satır başına kadar sil", "keys": "cmd+delete" },
+        { "title": "İleri doğru sil", "keys": "fn+delete" },
+        { "title": "Satır sonuna kadar kes", "keys": "ctrl+k" },
+        { "title": "Kesileni yapıştır", "keys": "ctrl+y" },
+        { "title": "İki harfin yerini değiştir", "keys": "ctrl+t" },
+        { "title": "Biçimsiz yapıştır", "keys": "opt+shift+cmd+v" },
+        { "title": "Sözlükte bak", "keys": "ctrl+cmd+d" }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "Rectangle",
+      "bundleIDs": ["com.knollsoft.Rectangle"],
+      "symbol": "rectangle.split.2x2",
+      "preferences": "com.knollsoft.Rectangle",
+      "items": [
+        { "title": "Sol yarı", "keys": "ctrl+opt+left", "pref": "leftHalf" },
+        { "title": "Sağ yarı", "keys": "ctrl+opt+right", "pref": "rightHalf" },
+        { "title": "Üst yarı", "keys": "ctrl+opt+up", "pref": "topHalf" },
+        { "title": "Alt yarı", "keys": "ctrl+opt+down", "pref": "bottomHalf" },
+        { "title": "Sol üst çeyrek", "keys": "ctrl+opt+u", "pref": "topLeft" },
+        { "title": "Sağ üst çeyrek", "keys": "ctrl+opt+i", "pref": "topRight" },
+        { "title": "Sol alt çeyrek", "keys": "ctrl+opt+j", "pref": "bottomLeft" },
+        { "title": "Sağ alt çeyrek", "keys": "ctrl+opt+k", "pref": "bottomRight" },
+        { "title": "İlk üçte bir", "keys": "ctrl+opt+d", "pref": "firstThird" },
+        { "title": "Orta üçte bir", "keys": "ctrl+opt+f", "pref": "centerThird" },
+        { "title": "Son üçte bir", "keys": "ctrl+opt+g", "pref": "lastThird" },
+        { "title": "İlk üçte iki", "keys": "ctrl+opt+e", "pref": "firstTwoThirds" },
+        { "title": "Son üçte iki", "keys": "ctrl+opt+t", "pref": "lastTwoThirds" },
+        { "title": "Ekranı kapla", "keys": "ctrl+opt+return", "pref": "maximize" },
+        { "title": "Yüksekliği büyüt", "keys": "ctrl+opt+shift+up", "pref": "maximizeHeight" },
+        { "title": "Küçült", "keys": "ctrl+opt+-", "pref": "smaller" },
+        { "title": "Büyüt", "keys": "ctrl+opt+=", "pref": "larger" },
+        { "title": "Ortala", "keys": "ctrl+opt+c", "pref": "center" },
+        { "title": "Eski haline getir", "keys": "ctrl+opt+delete", "pref": "restore" },
+        { "title": "Sonraki ekran", "keys": "ctrl+opt+cmd+right", "pref": "nextDisplay" },
+        { "title": "Önceki ekran", "keys": "ctrl+opt+cmd+left", "pref": "previousDisplay" }
+      ]
+    }
+  ],
+  "apps": [
+    {
+      "bundleIDs": ["com.apple.finder"],
+      "groups": [
+        {
+          "group": "Finder ipuçları",
+          "symbol": "folder",
+          "items": [
+            { "title": "Hızlı Bakış", "keys": "space" },
+            { "title": "Yeniden adlandır", "keys": "return" },
+            { "title": "Seçili öğeyi aç", "keys": "cmd+down" },
+            { "title": "Gizli dosyaları göster / gizle", "keys": "shift+cmd+." },
+            { "title": "Kopyalanan öğeyi buraya taşı", "keys": "opt+cmd+v" },
+            { "title": "Yolu kopyala", "keys": "opt+cmd+c" },
+            { "title": "Çöpe atmadan hemen sil", "keys": "opt+cmd+delete" },
+            { "title": "Çöpü sormadan boşalt", "keys": "opt+shift+cmd+delete" },
+            { "title": "Tüm alt klasörleri aç (liste)", "keys": "opt+right" },
+            { "title": "Sürüklerken taşı", "keys": "cmd+drag" },
+            { "title": "Sürüklerken kopyala", "keys": "opt+drag" },
+            { "title": "Takma ad oluştur", "keys": "opt+cmd+drag" }
+          ]
+        }
+      ]
+    },
+    {
+      "bundleIDs": ["com.apple.Safari", "com.apple.SafariTechnologyPreview"],
+      "groups": [
+        {
+          "group": "Safari ipuçları",
+          "symbol": "safari",
+          "items": [
+            { "title": "1.–9. sekmeye git", "keys": "cmd+1–9" },
+            { "title": "Bağlantıyı yeni sekmede aç", "keys": "cmd+click" },
+            { "title": "Yeni sekmede aç ve geç", "keys": "shift+cmd+click" },
+            { "title": "Bağlantıdaki dosyayı indir", "keys": "opt+click" },
+            { "title": "Sayfayı aşağı kaydır", "keys": "space" },
+            { "title": "Sayfayı yukarı kaydır", "keys": "shift+space" },
+            { "title": "Sayfanın başına git", "keys": "cmd+up" },
+            { "title": "Sayfanın sonuna git", "keys": "cmd+down" }
+          ]
+        }
+      ]
+    },
+    {
+      "bundleIDs": [
+        "com.google.Chrome", "com.google.Chrome.canary", "com.google.Chrome.beta",
+        "com.brave.Browser", "com.microsoft.edgemac", "company.thebrowser.Browser",
+        "com.vivaldi.Vivaldi", "com.operasoftware.Opera", "org.chromium.Chromium"
+      ],
+      "groups": [
+        {
+          "group": "Tarayıcı ipuçları",
+          "symbol": "globe",
+          "items": [
+            { "title": "1.–8. sekmeye git", "keys": "cmd+1–8" },
+            { "title": "Son sekmeye git", "keys": "cmd+9" },
+            { "title": "Sonraki sekme", "keys": "opt+cmd+right" },
+            { "title": "Önceki sekme", "keys": "opt+cmd+left" },
+            { "title": "Kapatılan sekmeyi geri aç", "keys": "shift+cmd+t" },
+            { "title": "Sekmelerde ara", "keys": "shift+cmd+a" },
+            { "title": "Adres çubuğuna git", "keys": "cmd+l" },
+            { "title": "Bağlantıyı arka planda aç", "keys": "cmd+click" },
+            { "title": "Bağlantıyı yeni pencerede aç", "keys": "shift+click" },
+            { "title": "Önbelleği atlayarak yenile", "keys": "shift+cmd+r" },
+            { "title": "Geliştirici araçları", "keys": "opt+cmd+i" },
+            { "title": "Sayfanın başına git", "keys": "cmd+up" },
+            { "title": "Sayfanın sonuna git", "keys": "cmd+down" }
+          ]
+        }
+      ]
+    },
+    {
+      "bundleIDs": [
+        "com.microsoft.VSCode", "com.microsoft.VSCodeInsiders", "com.vscodium",
+        "com.todesktop.230313mzl4w4u92", "com.exafunction.windsurf", "com.google.antigravity",
+        "com.qoder.ide"
+      ],
+      "groups": [
+        {
+          "group": "Editör ipuçları",
+          "symbol": "chevron.left.forwardslash.chevron.right",
+          "items": [
+            { "title": "Komut paleti", "keys": "shift+cmd+p" },
+            { "title": "Dosyaya hızlı git", "keys": "cmd+p" },
+            { "title": "Satırı sil", "keys": "shift+cmd+k" },
+            { "title": "Satırı yukarı taşı", "keys": "opt+up" },
+            { "title": "Satırı aşağı taşı", "keys": "opt+down" },
+            { "title": "Satırı aşağı kopyala", "keys": "shift+opt+down" },
+            { "title": "Alta yeni satır", "keys": "cmd+return" },
+            { "title": "Üste yeni satır", "keys": "shift+cmd+return" },
+            { "title": "Eşleşen paranteze git", "keys": "shift+cmd+\\" },
+            { "title": "Girintiyi artır", "keys": "cmd+]" },
+            { "title": "Girintiyi azalt", "keys": "cmd+[" },
+            { "title": "Yorum satırı yap", "keys": "cmd+/" },
+            { "title": "Sonraki eşleşmeyi seçime ekle", "keys": "cmd+d" },
+            { "title": "Tüm eşleşmeleri seç", "keys": "shift+cmd+l" },
+            { "title": "Tıklayarak imleç ekle", "keys": "opt+click" },
+            { "title": "Alta imleç ekle", "keys": "opt+cmd+down" },
+            { "title": "Hızlı düzeltme", "keys": "cmd+." },
+            { "title": "Sembolü yeniden adlandır", "keys": "f2" },
+            { "title": "Tanıma git", "keys": "f12" },
+            { "title": "Tanıma göz at", "keys": "opt+f12" },
+            { "title": "Belgeyi biçimlendir", "keys": "shift+opt+f" },
+            { "title": "Paneli aç / kapat", "keys": "cmd+j" },
+            { "title": "Tümünü katla", "keys": "cmd+k cmd+0" },
+            { "title": "Tümünü aç", "keys": "cmd+k cmd+j" },
+            { "title": "Klavye kısayolları", "keys": "cmd+k cmd+s" }
+          ]
+        }
+      ]
+    },
+    {
+      "bundleIDs": [
+        "com.apple.Terminal", "com.googlecode.iterm2", "com.mitchellh.ghostty",
+        "dev.warp.Warp-Stable", "com.github.wez.wezterm", "org.alacritty", "net.kovidgoyal.kitty",
+        "com.termius-dmg.mac"
+      ],
+      "groups": [
+        {
+          "group": "Kabuk (zsh / bash)",
+          "symbol": "terminal",
+          "items": [
+            { "title": "Satır başına git", "keys": "ctrl+a" },
+            { "title": "Satır sonuna git", "keys": "ctrl+e" },
+            { "title": "İmleçten başa kadar sil", "keys": "ctrl+u", "note": "zsh'de satırın tamamını siler" },
+            { "title": "İmleçten sona kadar sil", "keys": "ctrl+k" },
+            { "title": "Önceki kelimeyi sil", "keys": "ctrl+w" },
+            { "title": "Silineni geri yapıştır", "keys": "ctrl+y" },
+            { "title": "Komut geçmişinde ara", "keys": "ctrl+r" },
+            { "title": "Ekranı temizle", "keys": "ctrl+l" },
+            { "title": "Çalışan komutu durdur", "keys": "ctrl+c" },
+            { "title": "Arka plana al (askıya al)", "keys": "ctrl+z" },
+            { "title": "Oturumu kapat", "keys": "ctrl+d" },
+            { "title": "Otomatik tamamla", "keys": "tab" }
+          ]
+        }
+      ]
+    },
+    {
+      "bundleIDs": ["com.googlecode.iterm2"],
+      "groups": [
+        {
+          "group": "iTerm2 ipuçları",
+          "symbol": "apple.terminal",
+          "items": [
+            { "title": "Bağlantıyı / dosyayı aç", "keys": "cmd+click" },
+            { "title": "Dikdörtgen seçim", "keys": "opt+cmd+drag" },
+            { "title": "İmleci istenen yere taşı", "keys": "opt+click" },
+            { "title": "Dikey böl", "keys": "cmd+d" },
+            { "title": "Yatay böl", "keys": "shift+cmd+d" },
+            { "title": "Bölmeyi büyüt / eski haline al", "keys": "shift+cmd+return" },
+            { "title": "Pano geçmişi", "keys": "shift+cmd+h" },
+            { "title": "İmleci bul", "keys": "cmd+/" },
+            { "title": "Ekranı temizle", "keys": "cmd+k" }
+          ]
+        }
+      ]
+    },
+    {
+      "bundleIDs": ["com.apple.dt.Xcode"],
+      "groups": [
+        {
+          "group": "Xcode ipuçları",
+          "symbol": "hammer",
+          "items": [
+            { "title": "Hızlı yardım", "keys": "opt+click" },
+            { "title": "Tanıma atla", "keys": "ctrl+cmd+click" },
+            { "title": "Birden çok imleç", "keys": "ctrl+shift+click" },
+            { "title": "Sütun seçimi", "keys": "opt+drag" },
+            { "title": "Tamamlama önerilerini göster", "keys": "esc" }
+          ]
+        }
+      ]
+    }
+  ]
+}
